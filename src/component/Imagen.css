@@ -1,0 +1,24 @@
+:root{
+    --si :68vh;
+    --px : 75vh;
+}
+
+
+#image-overlay {
+  position: absolute;
+  clip: rect( var(--si), 500px, 100vh, 0px);
+  /* -webkit-clip-path: inset(0px 0px 0px 100px);
+    clip-path: inset(0px 0px 0px 100px); var(--px) */
+ 
+}
+#image {
+  opacity: 0.2;
+   
+
+}
+
+.texto-encima {
+  position: absolute;
+  top:var(--px);
+  left: 35vh;
+}
